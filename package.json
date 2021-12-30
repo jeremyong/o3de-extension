@@ -3,6 +3,7 @@
 	"displayName": "o3de",
 	"description": "O3DE developer support for Visual Studio Code (alpha, limited functionality and support)",
 	"repository": "github:jeremyong/o3de-extension",
+	"publisher": "JeremyOng",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.63.0"
