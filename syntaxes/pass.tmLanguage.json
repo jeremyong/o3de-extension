@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "pass",
+  "patterns": [
+    {
+      "include": "#type"
+    },
+    {
+      "include": "#version"
+    },
+    {
+      "include": "#classname"
+    },
+    {
+      "include": "#classdata"
+    }
+  ],
+  "repository": {
+    "type": {
+      "name": "keyword.type.pass",
+      "match": "\"Type\"\\s*:\\s*\"JsonSerialization\""
+    },
+    "version": {
+      "name": "keyword.version.pass",
+      "match": "\"Version\"\\s*:\\s*\\d+"
+    },
+    "classname": {
+      "name": "keyword.classname.pass",
+      "match": "\"ClassName\"\\s*:\\s*\"PassAsset\""
+    },
+    "classdata": {
+      "name": "entity.name.class.pass",
+      "match": "\"ClassData\"",
+      "patterns": [
+        {
+          "include": "#passtemplate"
+        }
+      ]
+    },
+    "passtemplate": {
+      "name": "entity.name.section",
+      "match": "\"PassTemplate\""
+    }
+  },
+  "scopeName": "source.pass"
+}
