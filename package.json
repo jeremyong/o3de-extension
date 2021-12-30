@@ -20,7 +20,7 @@
 		"languages": [
 			{
 				"id": "jsonc",
-				"extensions": [ ".pass", ".shader" ]
+				"extensions": [ ".pass", ".shader", ".shadervariantlist" ]
 			},
 			{
 				"id": "hlsl",

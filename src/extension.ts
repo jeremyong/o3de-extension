@@ -17,6 +17,8 @@ const passFilter: DocumentFilter[] = [
 	{language: 'json', pattern: '**/*.pass', scheme: 'file'},
 	{language: 'jsonc', pattern: '**/*.shader', scheme: 'file'},
 	{language: 'json', pattern: '**/*.shader', scheme: 'file'},
+	{language: 'jsonc', pattern: '**/*.shadervariantlist', scheme: 'file'},
+	{language: 'json', pattern: '**/*.shadervariantlist', scheme: 'file'},
 	{language: 'hlsl', pattern: '**/*.azsl', scheme: 'file'},
 	{language: 'hlsl', pattern: '**/*.azsli', scheme: 'file'},
 	{language: 'hlsl', pattern: '**/*.srgi', scheme: 'file'},
