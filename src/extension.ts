@@ -12,6 +12,8 @@ import {
 	DefinitionLink,
 } from 'vscode';
 
+import { activate as activateAZSL, deactivate as deactivateAZSL } from './azsl';
+
 const passFilter: DocumentFilter[] = [
 	{language: 'jsonc', pattern: '**/*.pass', scheme: 'file'},
 	{language: 'json', pattern: '**/*.pass', scheme: 'file'},
@@ -19,9 +21,7 @@ const passFilter: DocumentFilter[] = [
 	{language: 'json', pattern: '**/*.shader', scheme: 'file'},
 	{language: 'jsonc', pattern: '**/*.shadervariantlist', scheme: 'file'},
 	{language: 'json', pattern: '**/*.shadervariantlist', scheme: 'file'},
-	{language: 'hlsl', pattern: '**/*.azsl', scheme: 'file'},
-	{language: 'hlsl', pattern: '**/*.azsli', scheme: 'file'},
-	{language: 'hlsl', pattern: '**/*.srgi', scheme: 'file'},
+	{language: 'azsl', scheme: 'file'},
 ];
 
 function stripEndpoints(word: string) {
@@ -56,6 +56,9 @@ export function activate(context: ExtensionContext) {
 	console.log('O3DE extension active');
 
 	context.subscriptions.push(languages.registerDefinitionProvider(passFilter, definitionProvider));
+	activateAZSL(context);
 }
 
-export function deactivate() {}
+export function deactivate() {
+	deactivateAZSL();
+}

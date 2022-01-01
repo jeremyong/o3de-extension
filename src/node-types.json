@@ -1,0 +1,3402 @@
+[
+  {
+    "type": "addressModeEnum",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "anyStructuredTypeDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "classDefinition",
+          "named": true
+        },
+        {
+          "type": "enumDefinition",
+          "named": true
+        },
+        {
+          "type": "interfaceDefinition",
+          "named": true
+        },
+        {
+          "type": "structDefinition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "anyStructuredTypeDefinitionStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "anyStructuredTypeDefinition",
+          "named": true
+        },
+        {
+          "type": "attributeSpecifierAny",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "argumentList",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "expression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "arrayElementInitializers",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "standardVariableInitializer",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "arrayRankSpecifier",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "expression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "assignmentOperator",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "associatedTypeDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "genericConstraint",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attribute",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attributeArgumentList",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attributeArgumentList",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attributeArguments",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attributeArguments",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "literal",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attributeSpecifier",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attributeSpecifierAny",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "attributeSpecifier",
+          "named": true
+        },
+        {
+          "type": "attributeSpecifierSequence",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attributeSpecifierSequence",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attributedFunctionDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attributeSpecifierAny",
+          "named": true
+        },
+        {
+          "type": "functionDeclaration",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attributedFunctionDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attributeSpecifierAny",
+          "named": true
+        },
+        {
+          "type": "functionDefinition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attributedSrgDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attributeSpecifierAny",
+          "named": true
+        },
+        {
+          "type": "srgDefinition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "attributedSrgSemantic",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "attributeSpecifierAny",
+          "named": true
+        },
+        {
+          "type": "srgSemantic",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "baseList",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "idExpression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "binaryOperator",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "statement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "borderColorEnum",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "bufferPredefinedType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "bufferType",
+          "named": true
+        },
+        {
+          "type": "scalarOrVectorOrMatrixType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "bufferType",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "byteAddressBufferTypes",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "classDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "baseList",
+          "named": true
+        },
+        {
+          "type": "classMemberDeclaration",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "classMemberDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "anyStructuredTypeDefinitionStatement",
+          "named": true
+        },
+        {
+          "type": "attributeSpecifierAny",
+          "named": true
+        },
+        {
+          "type": "attributedFunctionDeclaration",
+          "named": true
+        },
+        {
+          "type": "attributedFunctionDefinition",
+          "named": true
+        },
+        {
+          "type": "typeAliasingDefinitionStatement",
+          "named": true
+        },
+        {
+          "type": "variableDeclarationStatement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comparisonFunctionEnum",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "compilerExtensionStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "idExpression",
+          "named": true
+        },
+        {
+          "type": "stringLiteral",
+          "named": true
+        },
+        {
+          "type": "typeofExpression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "constantBufferTemplated",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "elseClause",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "embeddedStatement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "embeddedStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "attributeSpecifier",
+          "named": true
+        },
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "compilerExtensionStatement",
+          "named": true
+        },
+        {
+          "type": "elseClause",
+          "named": true
+        },
+        {
+          "type": "embeddedStatement",
+          "named": true
+        },
+        {
+          "type": "expressionExt",
+          "named": true
+        },
+        {
+          "type": "forInitializer",
+          "named": true
+        },
+        {
+          "type": "switchBlock",
+          "named": true
+        },
+        {
+          "type": "typeAliasingDefinitionStatement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "enumDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "enumKey",
+          "named": true
+        },
+        {
+          "type": "enumeratorListDefinition",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "enumDefinitionStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "enumDefinition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "enumKey",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "enumeratorDeclarator",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "expression",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "enumeratorListDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "enumeratorDeclarator",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "argumentList",
+          "named": true
+        },
+        {
+          "type": "arrayRankSpecifier",
+          "named": true
+        },
+        {
+          "type": "assignmentOperator",
+          "named": true
+        },
+        {
+          "type": "binaryOperator",
+          "named": true
+        },
+        {
+          "type": "expression",
+          "named": true
+        },
+        {
+          "type": "expressionExt",
+          "named": true
+        },
+        {
+          "type": "idExpression",
+          "named": true
+        },
+        {
+          "type": "literal",
+          "named": true
+        },
+        {
+          "type": "postfixUnaryOperator",
+          "named": true
+        },
+        {
+          "type": "prefixUnaryOperator",
+          "named": true
+        },
+        {
+          "type": "scalarOrVectorOrMatrixType",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "expressionExt",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "expression",
+          "named": true
+        },
+        {
+          "type": "expressionExt",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "filterModeEnum",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "forInitializer",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "expressionExt",
+          "named": true
+        },
+        {
+          "type": "variableDeclaration",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "functionDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "leadingTypeFunctionSignature",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "functionDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "block",
+          "named": true
+        },
+        {
+          "type": "leadingTypeFunctionSignature",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "functionParam",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "arrayRankSpecifier",
+          "named": true
+        },
+        {
+          "type": "attributeSpecifierAny",
+          "named": true
+        },
+        {
+          "type": "hlslSemantic",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "packOffsetNode",
+          "named": true
+        },
+        {
+          "type": "registerAllocation",
+          "named": true
+        },
+        {
+          "type": "storageFlag",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        },
+        {
+          "type": "variableInitializer",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "functionParams",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "functionParam",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "genericConstraint",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "userDefinedType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "genericMatrixPredefinedType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "integerLiteral",
+          "named": true
+        },
+        {
+          "type": "scalarType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "genericParameterList",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "genericTypeDefinition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "genericTexturePredefinedType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "scalarType",
+          "named": true
+        },
+        {
+          "type": "texturePredefinedType",
+          "named": true
+        },
+        {
+          "type": "vectorType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "genericTypeDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "genericConstraint",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "genericVectorType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "integerLiteral",
+          "named": true
+        },
+        {
+          "type": "scalarType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "hlslSemantic",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "hlslSemanticStream",
+          "named": true
+        },
+        {
+          "type": "hlslSemanticSystem",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "hlslSemanticStream",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "idExpression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "includeStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "includeFile",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "interfaceDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "interfaceMemberDeclaration",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "interfaceMemberDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "anyStructuredTypeDefinitionStatement",
+          "named": true
+        },
+        {
+          "type": "associatedTypeDeclaration",
+          "named": true
+        },
+        {
+          "type": "attributedFunctionDeclaration",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "leadingTypeFunctionSignature",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "functionParams",
+          "named": true
+        },
+        {
+          "type": "genericParameterList",
+          "named": true
+        },
+        {
+          "type": "hlslSemantic",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "storageFlag",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        },
+        {
+          "type": "userDefinedType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "literal",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "floatLiteral",
+          "named": true
+        },
+        {
+          "type": "integerLiteral",
+          "named": true
+        },
+        {
+          "type": "stringLiteral",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "matrixType",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "msTexturePredefinedType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "integerLiteral",
+          "named": true
+        },
+        {
+          "type": "scalarType",
+          "named": true
+        },
+        {
+          "type": "vectorType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "namedVariableDecorator",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "arrayRankSpecifier",
+          "named": true
+        },
+        {
+          "type": "hlslSemantic",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "packOffsetNode",
+          "named": true
+        },
+        {
+          "type": "registerAllocation",
+          "named": true
+        },
+        {
+          "type": "variableInitializer",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "packOffsetNode",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "patchPredefinedType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "integerLiteral",
+          "named": true
+        },
+        {
+          "type": "userDefinedType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "postfixUnaryOperator",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "predefinedType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "bufferPredefinedType",
+          "named": true
+        },
+        {
+          "type": "byteAddressBufferTypes",
+          "named": true
+        },
+        {
+          "type": "constantBufferTemplated",
+          "named": true
+        },
+        {
+          "type": "genericMatrixPredefinedType",
+          "named": true
+        },
+        {
+          "type": "genericTexturePredefinedType",
+          "named": true
+        },
+        {
+          "type": "genericVectorType",
+          "named": true
+        },
+        {
+          "type": "matrixType",
+          "named": true
+        },
+        {
+          "type": "msTexturePredefinedType",
+          "named": true
+        },
+        {
+          "type": "otherViewResourceType",
+          "named": true
+        },
+        {
+          "type": "patchPredefinedType",
+          "named": true
+        },
+        {
+          "type": "rtxBuiltInTypes",
+          "named": true
+        },
+        {
+          "type": "samplerStatePredefinedType",
+          "named": true
+        },
+        {
+          "type": "scalarType",
+          "named": true
+        },
+        {
+          "type": "streamOutputPredefinedType",
+          "named": true
+        },
+        {
+          "type": "structuredBufferPredefinedType",
+          "named": true
+        },
+        {
+          "type": "subobjectType",
+          "named": true
+        },
+        {
+          "type": "texturePredefinedType",
+          "named": true
+        },
+        {
+          "type": "vectorType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "prefixUnaryOperator",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "reductionTypeEnum",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "registerAllocation",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "rtxBuiltInTypes",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "samplerBodyDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "samplerMemberDeclaration",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "samplerMemberDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "addressModeEnum",
+          "named": true
+        },
+        {
+          "type": "borderColorEnum",
+          "named": true
+        },
+        {
+          "type": "comparisonFunctionEnum",
+          "named": true
+        },
+        {
+          "type": "filterModeEnum",
+          "named": true
+        },
+        {
+          "type": "floatLiteral",
+          "named": true
+        },
+        {
+          "type": "integerLiteral",
+          "named": true
+        },
+        {
+          "type": "reductionTypeEnum",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "samplerStatePredefinedType",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "scalarOrVectorOrMatrixType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "matrixType",
+          "named": true
+        },
+        {
+          "type": "scalarType",
+          "named": true
+        },
+        {
+          "type": "vectorType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "scalarType",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "anyStructuredTypeDefinitionStatement",
+          "named": true
+        },
+        {
+          "type": "attributeSpecifierSequence",
+          "named": true
+        },
+        {
+          "type": "attributedFunctionDeclaration",
+          "named": true
+        },
+        {
+          "type": "attributedFunctionDefinition",
+          "named": true
+        },
+        {
+          "type": "attributedSrgDefinition",
+          "named": true
+        },
+        {
+          "type": "attributedSrgSemantic",
+          "named": true
+        },
+        {
+          "type": "compilerExtensionStatement",
+          "named": true
+        },
+        {
+          "type": "includeStatement",
+          "named": true
+        },
+        {
+          "type": "typeAliasingDefinitionStatement",
+          "named": true
+        },
+        {
+          "type": "variableDeclarationStatement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "srgDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "srgMemberDeclaration",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "srgMemberDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "attributeSpecifierAny",
+          "named": true
+        },
+        {
+          "type": "attributedFunctionDeclaration",
+          "named": true
+        },
+        {
+          "type": "attributedFunctionDefinition",
+          "named": true
+        },
+        {
+          "type": "enumDefinitionStatement",
+          "named": true
+        },
+        {
+          "type": "structDefinitionStatement",
+          "named": true
+        },
+        {
+          "type": "typeAliasingDefinitionStatement",
+          "named": true
+        },
+        {
+          "type": "variableDeclarationStatement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "srgSemantic",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "srgSemanticBodyDeclaration",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "srgSemanticBodyDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "srgSemanticMemberDeclaration",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "srgSemanticMemberDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "literal",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "standardVariableInitializer",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "arrayElementInitializers",
+          "named": true
+        },
+        {
+          "type": "expression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "statement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "anyStructuredTypeDefinitionStatement",
+          "named": true
+        },
+        {
+          "type": "embeddedStatement",
+          "named": true
+        },
+        {
+          "type": "variableDeclarationStatement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "storageFlag",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "streamOutputPredefinedType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "stringLiteral",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "escapeSequence",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "structDefinition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "structMemberDeclaration",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "structDefinitionStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "structDefinition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "structMemberDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "anyStructuredTypeDefinitionStatement",
+          "named": true
+        },
+        {
+          "type": "attributeSpecifierAny",
+          "named": true
+        },
+        {
+          "type": "attributedFunctionDeclaration",
+          "named": true
+        },
+        {
+          "type": "attributedFunctionDefinition",
+          "named": true
+        },
+        {
+          "type": "typeAliasingDefinitionStatement",
+          "named": true
+        },
+        {
+          "type": "variableDeclarationStatement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "structuredBufferPredefinedType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "subobjectType",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "switchBlock",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "switchSection",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "switchLabel",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "expression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "switchSection",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "statement",
+          "named": true
+        },
+        {
+          "type": "switchLabel",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "texturePredefinedType",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "type",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "predefinedType",
+          "named": true
+        },
+        {
+          "type": "typeofExpression",
+          "named": true
+        },
+        {
+          "type": "userDefinedType",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "typeAliasStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "typeAliasingDefinitionStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "typeAliasStatement",
+          "named": true
+        },
+        {
+          "type": "typedefStatement",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "typedefStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "typeofExpression",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "expressionExt",
+          "named": true
+        },
+        {
+          "type": "idExpression",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "userDefinedType",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "anyStructuredTypeDefinition",
+          "named": true
+        },
+        {
+          "type": "idExpression",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "variableDeclaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "storageFlag",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        },
+        {
+          "type": "variableDeclarators",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "variableDeclarationStatement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "variableDeclaration",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "variableDeclarators",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "namedVariableDecorator",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "variableInitializer",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "samplerBodyDeclaration",
+          "named": true
+        },
+        {
+          "type": "standardVariableInitializer",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "vectorType",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "!",
+    "named": false
+  },
+  {
+    "type": "!=",
+    "named": false
+  },
+  {
+    "type": "\"",
+    "named": false
+  },
+  {
+    "type": "#include",
+    "named": false
+  },
+  {
+    "type": "%",
+    "named": false
+  },
+  {
+    "type": "%=",
+    "named": false
+  },
+  {
+    "type": "&",
+    "named": false
+  },
+  {
+    "type": "&&",
+    "named": false
+  },
+  {
+    "type": "&=",
+    "named": false
+  },
+  {
+    "type": "(",
+    "named": false
+  },
+  {
+    "type": ")",
+    "named": false
+  },
+  {
+    "type": "*",
+    "named": false
+  },
+  {
+    "type": "*=",
+    "named": false
+  },
+  {
+    "type": "+",
+    "named": false
+  },
+  {
+    "type": "++",
+    "named": false
+  },
+  {
+    "type": "+=",
+    "named": false
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "-",
+    "named": false
+  },
+  {
+    "type": "--",
+    "named": false
+  },
+  {
+    "type": "-=",
+    "named": false
+  },
+  {
+    "type": ".",
+    "named": false
+  },
+  {
+    "type": "/",
+    "named": false
+  },
+  {
+    "type": "/=",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": "::",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": false
+  },
+  {
+    "type": "<",
+    "named": false
+  },
+  {
+    "type": "<<",
+    "named": false
+  },
+  {
+    "type": "<<=",
+    "named": false
+  },
+  {
+    "type": "<=",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": "==",
+    "named": false
+  },
+  {
+    "type": ">",
+    "named": false
+  },
+  {
+    "type": ">=",
+    "named": false
+  },
+  {
+    "type": ">>",
+    "named": false
+  },
+  {
+    "type": ">>=",
+    "named": false
+  },
+  {
+    "type": "?",
+    "named": false
+  },
+  {
+    "type": "AddressU",
+    "named": false
+  },
+  {
+    "type": "AddressV",
+    "named": false
+  },
+  {
+    "type": "AddressW",
+    "named": false
+  },
+  {
+    "type": "Always",
+    "named": false
+  },
+  {
+    "type": "AppendStructuredBuffer",
+    "named": false
+  },
+  {
+    "type": "Border",
+    "named": false
+  },
+  {
+    "type": "BorderColor",
+    "named": false
+  },
+  {
+    "type": "Buffer",
+    "named": false
+  },
+  {
+    "type": "BuiltInTriangleIntersectionAttributes",
+    "named": false
+  },
+  {
+    "type": "ByteAddressBuffer",
+    "named": false
+  },
+  {
+    "type": "Clamp",
+    "named": false
+  },
+  {
+    "type": "Comparison",
+    "named": false
+  },
+  {
+    "type": "ComparisonFunc",
+    "named": false
+  },
+  {
+    "type": "ConstantBuffer",
+    "named": false
+  },
+  {
+    "type": "ConsumeStructuredBuffer",
+    "named": false
+  },
+  {
+    "type": "Equal",
+    "named": false
+  },
+  {
+    "type": "FOG",
+    "named": false
+  },
+  {
+    "type": "Filter",
+    "named": false
+  },
+  {
+    "type": "FrequencyId",
+    "named": false
+  },
+  {
+    "type": "GlobalRootSignature",
+    "named": false
+  },
+  {
+    "type": "GreaterEqual",
+    "named": false
+  },
+  {
+    "type": "InputPatch",
+    "named": false
+  },
+  {
+    "type": "Less",
+    "named": false
+  },
+  {
+    "type": "LessEqual",
+    "named": false
+  },
+  {
+    "type": "LineStream",
+    "named": false
+  },
+  {
+    "type": "Linear",
+    "named": false
+  },
+  {
+    "type": "LocalRootSignature",
+    "named": false
+  },
+  {
+    "type": "MagFilter",
+    "named": false
+  },
+  {
+    "type": "MaxAnisotropy",
+    "named": false
+  },
+  {
+    "type": "MaxLOD",
+    "named": false
+  },
+  {
+    "type": "Maximum",
+    "named": false
+  },
+  {
+    "type": "MinFilter",
+    "named": false
+  },
+  {
+    "type": "MinLOD",
+    "named": false
+  },
+  {
+    "type": "Minimum",
+    "named": false
+  },
+  {
+    "type": "MipFilter",
+    "named": false
+  },
+  {
+    "type": "MipLODBias",
+    "named": false
+  },
+  {
+    "type": "Mirror",
+    "named": false
+  },
+  {
+    "type": "MirrorOnce",
+    "named": false
+  },
+  {
+    "type": "Never",
+    "named": false
+  },
+  {
+    "type": "NotEqual",
+    "named": false
+  },
+  {
+    "type": "OpaqueBlack",
+    "named": false
+  },
+  {
+    "type": "OpaqueWhite",
+    "named": false
+  },
+  {
+    "type": "OutputPatch",
+    "named": false
+  },
+  {
+    "type": "POSITIONT",
+    "named": false
+  },
+  {
+    "type": "Point",
+    "named": false
+  },
+  {
+    "type": "PointStream",
+    "named": false
+  },
+  {
+    "type": "ProceduralPrimitiveHitGroup",
+    "named": false
+  },
+  {
+    "type": "RWBuffer",
+    "named": false
+  },
+  {
+    "type": "RWByteAddressBuffer",
+    "named": false
+  },
+  {
+    "type": "RWStructuredBuffer",
+    "named": false
+  },
+  {
+    "type": "RWTexture1D",
+    "named": false
+  },
+  {
+    "type": "RWTexture1DArray",
+    "named": false
+  },
+  {
+    "type": "RWTexture2D",
+    "named": false
+  },
+  {
+    "type": "RWTexture2DArray",
+    "named": false
+  },
+  {
+    "type": "RWTexture3D",
+    "named": false
+  },
+  {
+    "type": "RasterizerOrderedBuffer",
+    "named": false
+  },
+  {
+    "type": "RasterizerOrderedByteAddressBuffer",
+    "named": false
+  },
+  {
+    "type": "RasterizerOrderedStructuredBuffer",
+    "named": false
+  },
+  {
+    "type": "RasterizerOrderedTexture1D",
+    "named": false
+  },
+  {
+    "type": "RasterizerOrderedTexture1DArray",
+    "named": false
+  },
+  {
+    "type": "RasterizerOrderedTexture2D",
+    "named": false
+  },
+  {
+    "type": "RasterizerOrderedTexture2DArray",
+    "named": false
+  },
+  {
+    "type": "RasterizerOrderedTexture3D",
+    "named": false
+  },
+  {
+    "type": "RayDesc",
+    "named": false
+  },
+  {
+    "type": "RaytracingPipelineConfig",
+    "named": false
+  },
+  {
+    "type": "RaytracingPipelineConfig1",
+    "named": false
+  },
+  {
+    "type": "RaytracingShaderConfig",
+    "named": false
+  },
+  {
+    "type": "ReductionType",
+    "named": false
+  },
+  {
+    "type": "Sampler",
+    "named": false
+  },
+  {
+    "type": "SamplerComparisonState",
+    "named": false
+  },
+  {
+    "type": "SamplerState",
+    "named": false
+  },
+  {
+    "type": "ShaderResourceGroup",
+    "named": false
+  },
+  {
+    "type": "ShaderResourceGroupSemantic",
+    "named": false
+  },
+  {
+    "type": "ShaderVariantFallback",
+    "named": false
+  },
+  {
+    "type": "StateObjectConfig",
+    "named": false
+  },
+  {
+    "type": "StructuredBuffer",
+    "named": false
+  },
+  {
+    "type": "SubobjectToExportsAssociation",
+    "named": false
+  },
+  {
+    "type": "SubpassInput",
+    "named": false
+  },
+  {
+    "type": "SubpassInputMS",
+    "named": false
+  },
+  {
+    "type": "Texture1D",
+    "named": false
+  },
+  {
+    "type": "Texture1DArray",
+    "named": false
+  },
+  {
+    "type": "Texture2D",
+    "named": false
+  },
+  {
+    "type": "Texture2DArray",
+    "named": false
+  },
+  {
+    "type": "Texture2DMS",
+    "named": false
+  },
+  {
+    "type": "Texture2DMSArray",
+    "named": false
+  },
+  {
+    "type": "Texture3D",
+    "named": false
+  },
+  {
+    "type": "TextureCube",
+    "named": false
+  },
+  {
+    "type": "TextureCubeArray",
+    "named": false
+  },
+  {
+    "type": "TransparentBlack",
+    "named": false
+  },
+  {
+    "type": "TriangleHitGroup",
+    "named": false
+  },
+  {
+    "type": "TriangleStream",
+    "named": false
+  },
+  {
+    "type": "VFACE",
+    "named": false
+  },
+  {
+    "type": "Wrap",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "[[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "]]",
+    "named": false
+  },
+  {
+    "type": "^",
+    "named": false
+  },
+  {
+    "type": "^=",
+    "named": false
+  },
+  {
+    "type": "__azslc_print_message",
+    "named": false
+  },
+  {
+    "type": "__azslc_print_symbol",
+    "named": false
+  },
+  {
+    "type": "__azslc_prtsym_constint_value",
+    "named": false
+  },
+  {
+    "type": "__azslc_prtsym_fully_qualified",
+    "named": false
+  },
+  {
+    "type": "__azslc_prtsym_least_qualified",
+    "named": false
+  },
+  {
+    "type": "associatedtype",
+    "named": false
+  },
+  {
+    "type": "bool",
+    "named": false
+  },
+  {
+    "type": "bool1",
+    "named": false
+  },
+  {
+    "type": "bool1x1",
+    "named": false
+  },
+  {
+    "type": "bool1x2",
+    "named": false
+  },
+  {
+    "type": "bool1x3",
+    "named": false
+  },
+  {
+    "type": "bool1x4",
+    "named": false
+  },
+  {
+    "type": "bool2",
+    "named": false
+  },
+  {
+    "type": "bool2x1",
+    "named": false
+  },
+  {
+    "type": "bool2x2",
+    "named": false
+  },
+  {
+    "type": "bool2x3",
+    "named": false
+  },
+  {
+    "type": "bool2x4",
+    "named": false
+  },
+  {
+    "type": "bool3",
+    "named": false
+  },
+  {
+    "type": "bool3x1",
+    "named": false
+  },
+  {
+    "type": "bool3x2",
+    "named": false
+  },
+  {
+    "type": "bool3x3",
+    "named": false
+  },
+  {
+    "type": "bool3x4",
+    "named": false
+  },
+  {
+    "type": "bool4",
+    "named": false
+  },
+  {
+    "type": "bool4x1",
+    "named": false
+  },
+  {
+    "type": "bool4x2",
+    "named": false
+  },
+  {
+    "type": "bool4x3",
+    "named": false
+  },
+  {
+    "type": "bool4x4",
+    "named": false
+  },
+  {
+    "type": "break",
+    "named": false
+  },
+  {
+    "type": "case",
+    "named": false
+  },
+  {
+    "type": "centroid",
+    "named": false
+  },
+  {
+    "type": "class",
+    "named": false
+  },
+  {
+    "type": "column_major",
+    "named": false
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "const",
+    "named": false
+  },
+  {
+    "type": "constantBuffer",
+    "named": false
+  },
+  {
+    "type": "continue",
+    "named": false
+  },
+  {
+    "type": "default",
+    "named": false
+  },
+  {
+    "type": "discard",
+    "named": false
+  },
+  {
+    "type": "do",
+    "named": false
+  },
+  {
+    "type": "doublde",
+    "named": false
+  },
+  {
+    "type": "double1",
+    "named": false
+  },
+  {
+    "type": "double1x1",
+    "named": false
+  },
+  {
+    "type": "double1x2",
+    "named": false
+  },
+  {
+    "type": "double1x3",
+    "named": false
+  },
+  {
+    "type": "double1x4",
+    "named": false
+  },
+  {
+    "type": "double2",
+    "named": false
+  },
+  {
+    "type": "double2x1",
+    "named": false
+  },
+  {
+    "type": "double2x2",
+    "named": false
+  },
+  {
+    "type": "double2x3",
+    "named": false
+  },
+  {
+    "type": "double2x4",
+    "named": false
+  },
+  {
+    "type": "double3",
+    "named": false
+  },
+  {
+    "type": "double3x1",
+    "named": false
+  },
+  {
+    "type": "double3x2",
+    "named": false
+  },
+  {
+    "type": "double3x3",
+    "named": false
+  },
+  {
+    "type": "double3x4",
+    "named": false
+  },
+  {
+    "type": "double4",
+    "named": false
+  },
+  {
+    "type": "double4x1",
+    "named": false
+  },
+  {
+    "type": "double4x2",
+    "named": false
+  },
+  {
+    "type": "double4x3",
+    "named": false
+  },
+  {
+    "type": "double4x4",
+    "named": false
+  },
+  {
+    "type": "dword",
+    "named": false
+  },
+  {
+    "type": "dword1",
+    "named": false
+  },
+  {
+    "type": "dword1x1",
+    "named": false
+  },
+  {
+    "type": "dword1x2",
+    "named": false
+  },
+  {
+    "type": "dword1x3",
+    "named": false
+  },
+  {
+    "type": "dword1x4",
+    "named": false
+  },
+  {
+    "type": "dword2",
+    "named": false
+  },
+  {
+    "type": "dword2x1",
+    "named": false
+  },
+  {
+    "type": "dword2x2",
+    "named": false
+  },
+  {
+    "type": "dword2x3",
+    "named": false
+  },
+  {
+    "type": "dword2x4",
+    "named": false
+  },
+  {
+    "type": "dword3",
+    "named": false
+  },
+  {
+    "type": "dword3x1",
+    "named": false
+  },
+  {
+    "type": "dword3x2",
+    "named": false
+  },
+  {
+    "type": "dword3x3",
+    "named": false
+  },
+  {
+    "type": "dword3x4",
+    "named": false
+  },
+  {
+    "type": "dword4",
+    "named": false
+  },
+  {
+    "type": "dword4x1",
+    "named": false
+  },
+  {
+    "type": "dword4x2",
+    "named": false
+  },
+  {
+    "type": "dword4x3",
+    "named": false
+  },
+  {
+    "type": "dword4x4",
+    "named": false
+  },
+  {
+    "type": "else",
+    "named": false
+  },
+  {
+    "type": "enum",
+    "named": false
+  },
+  {
+    "type": "escapeSequence",
+    "named": true
+  },
+  {
+    "type": "extern",
+    "named": false
+  },
+  {
+    "type": "false",
+    "named": false
+  },
+  {
+    "type": "float",
+    "named": false
+  },
+  {
+    "type": "float1",
+    "named": false
+  },
+  {
+    "type": "float1x1",
+    "named": false
+  },
+  {
+    "type": "float1x2",
+    "named": false
+  },
+  {
+    "type": "float1x3",
+    "named": false
+  },
+  {
+    "type": "float1x4",
+    "named": false
+  },
+  {
+    "type": "float2",
+    "named": false
+  },
+  {
+    "type": "float2x1",
+    "named": false
+  },
+  {
+    "type": "float2x2",
+    "named": false
+  },
+  {
+    "type": "float2x3",
+    "named": false
+  },
+  {
+    "type": "float2x4",
+    "named": false
+  },
+  {
+    "type": "float3",
+    "named": false
+  },
+  {
+    "type": "float3x1",
+    "named": false
+  },
+  {
+    "type": "float3x2",
+    "named": false
+  },
+  {
+    "type": "float3x3",
+    "named": false
+  },
+  {
+    "type": "float3x4",
+    "named": false
+  },
+  {
+    "type": "float4",
+    "named": false
+  },
+  {
+    "type": "float4x1",
+    "named": false
+  },
+  {
+    "type": "float4x2",
+    "named": false
+  },
+  {
+    "type": "float4x3",
+    "named": false
+  },
+  {
+    "type": "float4x4",
+    "named": false
+  },
+  {
+    "type": "floatLiteral",
+    "named": true
+  },
+  {
+    "type": "for",
+    "named": false
+  },
+  {
+    "type": "global",
+    "named": false
+  },
+  {
+    "type": "groupshared",
+    "named": false
+  },
+  {
+    "type": "half",
+    "named": false
+  },
+  {
+    "type": "half1",
+    "named": false
+  },
+  {
+    "type": "half1x1",
+    "named": false
+  },
+  {
+    "type": "half1x2",
+    "named": false
+  },
+  {
+    "type": "half1x3",
+    "named": false
+  },
+  {
+    "type": "half1x4",
+    "named": false
+  },
+  {
+    "type": "half2",
+    "named": false
+  },
+  {
+    "type": "half2x1",
+    "named": false
+  },
+  {
+    "type": "half2x2",
+    "named": false
+  },
+  {
+    "type": "half2x3",
+    "named": false
+  },
+  {
+    "type": "half2x4",
+    "named": false
+  },
+  {
+    "type": "half3",
+    "named": false
+  },
+  {
+    "type": "half3x1",
+    "named": false
+  },
+  {
+    "type": "half3x2",
+    "named": false
+  },
+  {
+    "type": "half3x3",
+    "named": false
+  },
+  {
+    "type": "half3x4",
+    "named": false
+  },
+  {
+    "type": "half4",
+    "named": false
+  },
+  {
+    "type": "half4x1",
+    "named": false
+  },
+  {
+    "type": "half4x2",
+    "named": false
+  },
+  {
+    "type": "half4x3",
+    "named": false
+  },
+  {
+    "type": "half4x4",
+    "named": false
+  },
+  {
+    "type": "hlslSemanticSystem",
+    "named": true
+  },
+  {
+    "type": "identifier",
+    "named": true
+  },
+  {
+    "type": "if",
+    "named": false
+  },
+  {
+    "type": "in",
+    "named": false
+  },
+  {
+    "type": "in out",
+    "named": false
+  },
+  {
+    "type": "includeFile",
+    "named": true
+  },
+  {
+    "type": "inline",
+    "named": false
+  },
+  {
+    "type": "inout",
+    "named": false
+  },
+  {
+    "type": "int",
+    "named": false
+  },
+  {
+    "type": "int1",
+    "named": false
+  },
+  {
+    "type": "int1x1",
+    "named": false
+  },
+  {
+    "type": "int1x2",
+    "named": false
+  },
+  {
+    "type": "int1x3",
+    "named": false
+  },
+  {
+    "type": "int1x4",
+    "named": false
+  },
+  {
+    "type": "int2",
+    "named": false
+  },
+  {
+    "type": "int2x1",
+    "named": false
+  },
+  {
+    "type": "int2x2",
+    "named": false
+  },
+  {
+    "type": "int2x3",
+    "named": false
+  },
+  {
+    "type": "int2x4",
+    "named": false
+  },
+  {
+    "type": "int3",
+    "named": false
+  },
+  {
+    "type": "int3x1",
+    "named": false
+  },
+  {
+    "type": "int3x2",
+    "named": false
+  },
+  {
+    "type": "int3x3",
+    "named": false
+  },
+  {
+    "type": "int3x4",
+    "named": false
+  },
+  {
+    "type": "int4",
+    "named": false
+  },
+  {
+    "type": "int4x1",
+    "named": false
+  },
+  {
+    "type": "int4x2",
+    "named": false
+  },
+  {
+    "type": "int4x3",
+    "named": false
+  },
+  {
+    "type": "int4x4",
+    "named": false
+  },
+  {
+    "type": "integerLiteral",
+    "named": true
+  },
+  {
+    "type": "interface",
+    "named": false
+  },
+  {
+    "type": "line",
+    "named": false
+  },
+  {
+    "type": "lineadj",
+    "named": false
+  },
+  {
+    "type": "linear",
+    "named": false
+  },
+  {
+    "type": "matrix",
+    "named": false
+  },
+  {
+    "type": "nointerpolation",
+    "named": false
+  },
+  {
+    "type": "noperspective",
+    "named": false
+  },
+  {
+    "type": "option",
+    "named": false
+  },
+  {
+    "type": "otherViewResourceType",
+    "named": true
+  },
+  {
+    "type": "out",
+    "named": false
+  },
+  {
+    "type": "override",
+    "named": false
+  },
+  {
+    "type": "packoffset",
+    "named": false
+  },
+  {
+    "type": "partial",
+    "named": false
+  },
+  {
+    "type": "point",
+    "named": false
+  },
+  {
+    "type": "precise",
+    "named": false
+  },
+  {
+    "type": "register",
+    "named": false
+  },
+  {
+    "type": "return",
+    "named": false
+  },
+  {
+    "type": "rootconstant",
+    "named": false
+  },
+  {
+    "type": "row_major",
+    "named": false
+  },
+  {
+    "type": "sample",
+    "named": false
+  },
+  {
+    "type": "sampler",
+    "named": false
+  },
+  {
+    "type": "shared",
+    "named": false
+  },
+  {
+    "type": "static",
+    "named": false
+  },
+  {
+    "type": "struct",
+    "named": false
+  },
+  {
+    "type": "switch",
+    "named": false
+  },
+  {
+    "type": "triangle",
+    "named": false
+  },
+  {
+    "type": "triangleadj",
+    "named": false
+  },
+  {
+    "type": "true",
+    "named": false
+  },
+  {
+    "type": "typealias",
+    "named": false
+  },
+  {
+    "type": "typedef",
+    "named": false
+  },
+  {
+    "type": "typeof",
+    "named": false
+  },
+  {
+    "type": "uint",
+    "named": false
+  },
+  {
+    "type": "uint1",
+    "named": false
+  },
+  {
+    "type": "uint1x1",
+    "named": false
+  },
+  {
+    "type": "uint1x2",
+    "named": false
+  },
+  {
+    "type": "uint1x3",
+    "named": false
+  },
+  {
+    "type": "uint1x4",
+    "named": false
+  },
+  {
+    "type": "uint2",
+    "named": false
+  },
+  {
+    "type": "uint2x1",
+    "named": false
+  },
+  {
+    "type": "uint2x2",
+    "named": false
+  },
+  {
+    "type": "uint2x3",
+    "named": false
+  },
+  {
+    "type": "uint2x4",
+    "named": false
+  },
+  {
+    "type": "uint3",
+    "named": false
+  },
+  {
+    "type": "uint3x1",
+    "named": false
+  },
+  {
+    "type": "uint3x2",
+    "named": false
+  },
+  {
+    "type": "uint3x3",
+    "named": false
+  },
+  {
+    "type": "uint3x4",
+    "named": false
+  },
+  {
+    "type": "uint4",
+    "named": false
+  },
+  {
+    "type": "uint4x1",
+    "named": false
+  },
+  {
+    "type": "uint4x2",
+    "named": false
+  },
+  {
+    "type": "uint4x3",
+    "named": false
+  },
+  {
+    "type": "uint4x4",
+    "named": false
+  },
+  {
+    "type": "uniform",
+    "named": false
+  },
+  {
+    "type": "unsigned int",
+    "named": false
+  },
+  {
+    "type": "vector",
+    "named": false
+  },
+  {
+    "type": "void",
+    "named": false
+  },
+  {
+    "type": "volatile",
+    "named": false
+  },
+  {
+    "type": "while",
+    "named": false
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "|",
+    "named": false
+  },
+  {
+    "type": "|=",
+    "named": false
+  },
+  {
+    "type": "||",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  },
+  {
+    "type": "~",
+    "named": false
+  }
+]

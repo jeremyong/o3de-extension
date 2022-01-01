@@ -8,3 +8,9 @@ vsc-extension-quickstart.md
 **/.eslintrc.json
 **/*.map
 **/*.ts
+**/*.exp
+**/*.lib
+**/*.obj
+bindings/
+build/
+**/*.log
